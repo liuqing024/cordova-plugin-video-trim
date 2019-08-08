@@ -56,14 +56,14 @@
                             <constraint firstAttribute="trailing" secondItem="GF0-OD-nYr" secondAttribute="trailing" id="DOv-fl-TfK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Trim Video" id="Ddt-4w-AB6">
-                        <barButtonItem key="backBarButtonItem" title="Cancel" id="avH-QH-yYR"/>
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="mBY-5n-bPU">
+                    <navigationItem key="navigationItem" title="剪截视频" id="Ddt-4w-AB6">
+                        <barButtonItem key="backBarButtonItem" title="取消" id="avH-QH-yYR"/>
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="mBY-5n-bPU">
                             <connections>
                                 <action selector="cancel:" destination="vXZ-lx-hvc" id="ZXj-dF-Jmy"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="OUV-QF-oCS">
+                        <barButtonItem key="rightBarButtonItem" title="完成" id="OUV-QF-oCS">
                             <connections>
                                 <action selector="trimVideo:" destination="vXZ-lx-hvc" id="xCa-e1-xhF"/>
                             </connections>
